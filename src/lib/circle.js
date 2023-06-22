@@ -14,7 +14,7 @@ const circleConfig = {
     build: {
       docker: [
         {
-          image: 'circleci/node:latest',
+          image: 'cimg/node:current',
         },
       ],
       steps: [
